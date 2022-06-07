@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script finds all '.mp4' files in the directory structure
+# and converts them to a 1080p resolution and 16:9 aspect ratio.
+
 file_list=( $(find . -name "*.mp4") )
 
 for FILE in ${file_list[@]}; do
